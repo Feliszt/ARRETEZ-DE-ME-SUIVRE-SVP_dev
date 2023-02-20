@@ -1,0 +1,141 @@
+/* PROJECT PAGES */
+.project-wrapper {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.main-info-fixed {
+  position: fixed;
+  width: 18%;
+}
+
+.project-name {
+  position: relative;
+  font-family: "ARC-BOLD", sans-serif;
+  margin: 0px;
+  font-size: 60pt;
+  width: max-content;
+  line-height: 60px;
+    color: black;
+}
+
+.project-name img {
+  position: absolute;
+  height: 100%;
+  width: 800%;
+  right: 0;
+  z-index: -999;
+}
+
+h2 {
+  font-family: var(--text-font);
+  font-weight: normal;
+  margin-top: 15px;
+  font-size: 12pt;
+    color: black;
+}
+
+h3 {
+  font-family: var(--text-font);
+  margin-top: 5px;
+  font-size: 11pt;
+}
+
+.keywords p {
+  font-family: var(--text-font);
+  margin-top: 15px;
+  font-size: 12pt;
+    color: black;
+}
+
+.partenaires p {
+  font-family: var(--text-font);
+  margin-top: 50px;
+  font-size: 12pt;
+}
+
+.partenaires img {
+  position: relative;
+  left : -20px;
+  top : -10px;
+}
+
+.en {
+  font-style: italic;
+  display: none;
+}
+
+.project-main-wrapper {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: 25%;
+}
+
+.project-description {
+  font-family: var(--text-font);
+  font-weight: normal;
+  font-size: 14pt;
+  margin-bottom: 50px;
+  column-count: 2;
+  color: black;
+}
+
+.paragraph-title {
+  font-family: var(--text-font);
+  font-weight: bold;
+  font-size: 20pt;
+  margin-bottom: 0px;
+  color: black;
+}
+
+.media-side-by-side {
+  height: max-content;
+  display: grid;
+  grid-template-columns: repeat(var(--n-media), 1fr);
+  grid-column-gap: 50px;
+  grid-auto-rows: auto;
+}
+
+.project-images img, video, iframe {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+iframe {
+  height: 500px;
+}
+
+.vimeo-media {
+  padding:56.25% 0 0 0;
+  position:relative;
+  margin-bottom: 50px;
+}
+
+#has-credit {
+  margin-bottom: 0px;
+}
+
+#has-credit {
+  margin-bottom: 0px;
+}
+
+.credit {
+  font-family: var(--text-font);
+  font-weight: normal;
+  font-size: 10pt;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.project-wrapper a {
+  text-decoration: underline;
+  color: black;
+}
+
+.project-wrapper a:hover {
+  text-decoration: none;
+  background-color: rgb(20, 20, 20);
+  color: rgb(250, 250, 250);
+}

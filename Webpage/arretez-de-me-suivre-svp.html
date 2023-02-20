@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/project-style.css">
+<link rel="stylesheet" href="css/arretez-de-me-suivre-svp_style.css">
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<title>félix côte</title>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="bar">
+  <a class="name" href="index.html">félix côte</a>
+  <div class="name-under" style="--n: 1">félix côte</div>
+  <div class="name-under" style="--n: 2">félix côte</div>
+  <div class="name-under" style="--n: 3">félix côte</div>
+  <div class="name-under" style="--n: 4">félix côte</div>
+  <a href="about.html" class="bar-el" id="about">
+      <p>à propos</p>
+      <p class="bar-en">about</p>
+  </a>
+  <a href="events.html" class="bar-el" id="event">
+      <p>événements</p>
+      <p class="bar-en">events</p>
+  </a>
+  <a href="index.html" class="bar-el" id="works">
+      <p>travaux</p>
+      <p class="bar-en">works</p>
+  </a>
+</div>
+
+<!-- PROJECT DESCRIPTION -->
+<div class="project-wrapper">
+  <div class="main-info-fixed">
+    <div class="project-name" style="font-size: 40pt; line-height: 40px">
+      <img src="media/general_noise.jpg">
+      arrêtez de me<br>suivre svp
+    </div>
+    <h2>2023</h2>
+    <h3></h3>
+    <div class="keywords">
+      <p class="key-fr">installation, performance, web, position GPS, temps-réel.</p>
+      <p class="en">installation, video, book, paper, book binding video projection.</p>
+    </div>
+  </div>
+
+  <div class="project-main-wrapper">
+    <div class="project-description">
+      <em>arrêtez de me suivre svp</em> est une installation web..... 
+      <br><br>
+    </div>
+    <div class="map-wrapper">
+      <!--<h1>Ma position</h1>-->
+      <div id="map"></div>
+      <div class="live-logo">
+        <span class="dot"></span>
+        LIVE</div>
+      <p class="update-time-wrapper">
+        <!-- <span id="update-time"></span> -->
+      </p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+
+<!-- FOOTER -->
+<footer>
+</footer>
+<script src="js/locationtracker.js"></script>
+</html>
